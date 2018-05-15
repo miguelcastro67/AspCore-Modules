@@ -1,0 +1,9 @@
+F:\Workspace\AspCoreModules\WebModule.Common\bin\Debug\netstandard2.0\WebModule.Common.deps.json
+F:\Workspace\AspCoreModules\WebModule.Common\bin\Debug\netstandard2.0\WebModule.Common.dll
+F:\Workspace\AspCoreModules\WebModule.Common\bin\Debug\netstandard2.0\WebModule.Common.pdb
+F:\Workspace\AspCoreModules\WebModule.Common\obj\Debug\netstandard2.0\WebModule.Common.csprojAssemblyReference.cache
+F:\Workspace\AspCoreModules\WebModule.Common\obj\Debug\netstandard2.0\WebModule.Common.csproj.CoreCompileInputs.cache
+F:\Workspace\AspCoreModules\WebModule.Common\obj\Debug\netstandard2.0\WebModule.Common.AssemblyInfoInputs.cache
+F:\Workspace\AspCoreModules\WebModule.Common\obj\Debug\netstandard2.0\WebModule.Common.AssemblyInfo.cs
+F:\Workspace\AspCoreModules\WebModule.Common\obj\Debug\netstandard2.0\WebModule.Common.dll
+F:\Workspace\AspCoreModules\WebModule.Common\obj\Debug\netstandard2.0\WebModule.Common.pdb

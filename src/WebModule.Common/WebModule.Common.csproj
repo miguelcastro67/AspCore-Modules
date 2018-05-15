@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Miguel A. Castro</Authors>
+    <Company>TekSavvy</Company>
+    <PackageTags>webmodule</PackageTags>
+  </PropertyGroup>
+
+</Project>

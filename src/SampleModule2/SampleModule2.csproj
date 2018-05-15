@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>WebModule.SampleModule2</PackageId>
+    <Authors>Miguel A. Castro</Authors>
+    <Company></Company>
+    <Product>Sample Web Module 2</Product>
+    <PackageTags>webmoule</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Sample2\Index.cshtml" />
+    <None Remove="wwwroot\css\module2.css" />
+    <None Remove="wwwroot\js\module2.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Sample2\Index.cshtml" />
+    <EmbeddedResource Include="wwwroot\css\module2.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wwwroot\js\module2.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebModule.Common\WebModule.Common.csproj" />
+  </ItemGroup>
+
+</Project>

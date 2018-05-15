@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>SampleModule1</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>WebModule.SampleModule1</PackageId>
+    <Authors>Miguel A. Castro</Authors>
+    <Company></Company>
+    <Product>Sample Web Module 1</Product>
+    <PackageTags>webmodule</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Sample1\Index.cshtml" />
+    <None Remove="wwwroot\css\module1.css" />
+    <None Remove="wwwroot\js\module1.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\css\module1.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Sample1\Index.cshtml" />
+    <EmbeddedResource Include="wwwroot\js\module1.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.ViewCompilation" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebModule.Common\WebModule.Common.csproj" />
+  </ItemGroup>
+
+</Project>

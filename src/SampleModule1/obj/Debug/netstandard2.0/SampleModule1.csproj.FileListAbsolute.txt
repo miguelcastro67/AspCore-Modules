@@ -1,0 +1,12 @@
+F:\Workspace\AspCoreModules\SampleModule1\bin\Debug\netstandard2.0\SampleModule1.deps.json
+F:\Workspace\AspCoreModules\SampleModule1\bin\Debug\netstandard2.0\SampleModule1.dll
+F:\Workspace\AspCoreModules\SampleModule1\obj\Debug\netstandard2.0\SampleModule1.csproj.CoreCompileInputs.cache
+F:\Workspace\AspCoreModules\SampleModule1\obj\Debug\netstandard2.0\SampleModule1.AssemblyInfoInputs.cache
+F:\Workspace\AspCoreModules\SampleModule1\obj\Debug\netstandard2.0\SampleModule1.AssemblyInfo.cs
+F:\Workspace\AspCoreModules\SampleModule1\bin\Debug\netstandard2.0\SampleModule1.pdb
+F:\Workspace\AspCoreModules\SampleModule1\obj\Debug\netstandard2.0\SampleModule1.dll
+F:\Workspace\AspCoreModules\SampleModule1\obj\Debug\netstandard2.0\SampleModule1.pdb
+F:\Workspace\AspCoreModules\SampleModule1\obj\Debug\netstandard2.0\SampleModule1.csproj.CopyComplete
+F:\Workspace\AspCoreModules\SampleModule1\bin\Debug\netstandard2.0\WebModule.Common.dll
+F:\Workspace\AspCoreModules\SampleModule1\bin\Debug\netstandard2.0\WebModule.Common.pdb
+F:\Workspace\AspCoreModules\SampleModule1\obj\Debug\netstandard2.0\SampleModule1.csprojAssemblyReference.cache
